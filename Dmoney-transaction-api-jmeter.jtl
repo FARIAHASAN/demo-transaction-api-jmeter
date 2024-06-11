@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1718093329032,133,User Login,200,OK,Thread Group 1-1,text,true,,621,313,1,2,http://dmoney.roadtocareer.net/user/login,121,0,70
+1718093329032,133,Admin Login,200,OK,Dmoney-transaction-api-jmeter 2-1,text,true,,617,312,1,2,http://dmoney.roadtocareer.net/user/login,121,0,70
+1718093329238,39,Admin create a Agent,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,602,612,1,2,http://dmoney.roadtocareer.net/user/create,39,0,0
+1718093329238,51,Create Customer,201,Created,Thread Group 1-1,text,true,,602,615,1,2,http://dmoney.roadtocareer.net/user/create,51,0,0
+1718093329298,32,Search User,200,OK,Thread Group 1-1,text,true,,616,428,1,2,http://dmoney.roadtocareer.net/user/search/id/7541,32,0,0
+1718093329280,55,Admin create a Customer,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,606,615,1,2,http://dmoney.roadtocareer.net/user/create,55,0,0
+1718093329337,30,Admin create a Merchant,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,610,619,1,1,http://dmoney.roadtocareer.net/user/create,30,0,0
+1718093329369,55,Money deposit from SYSTEM to Agent ,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,444,531,1,1,http://dmoney.roadtocareer.net/transaction/deposit,55,0,0
+1718093329425,49,Deposit Money from Agent to Customer,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,437,536,1,1,http://dmoney.roadtocareer.net/transaction/deposit,49,0,0
+1718093329475,27,Customer Check Balance,200,OK,Dmoney-transaction-api-jmeter 2-1,text,true,,377,439,1,1,http://dmoney.roadtocareer.net/transaction/balance/78673649295,27,0,0
+1718093329503,31,Withdraw Money by Customer,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,428,536,1,1,http://dmoney.roadtocareer.net/transaction/withdraw,31,0,0
+1718093329536,18,Customer Check Balance,200,OK,Dmoney-transaction-api-jmeter 2-1,text,true,,376,439,1,1,http://dmoney.roadtocareer.net/transaction/balance/78673649295,18,0,0
+1718093329556,34,Payment made by Customer,201,Created,Dmoney-transaction-api-jmeter 2-1,text,true,,428,535,1,1,http://dmoney.roadtocareer.net/transaction/payment,34,0,0
+1718093329591,17,Merchant Check Balance,200,OK,Dmoney-transaction-api-jmeter 2-1,text,true,,376,439,1,1,http://dmoney.roadtocareer.net/transaction/balance/78676949295,17,0,0
